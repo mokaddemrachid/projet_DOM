@@ -1,0 +1,783 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GOFASTICO</title>
+    <link
+        rel="Icon"
+        type="image/png"
+        href="GOFASTICO.png"
+    >
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="logo.png" alt="Bootstrap" width="80" height="80">
+          </a>
+          <a class="navbar-brand text" href="#">
+            <img src="11.png" width="300" height="80" id="logo_text">
+          </a>
+        </div>
+    </nav>
+    
+        <div class="search" >
+            <h1 class="search_title">Your favorite meals right at your doorstep</h1>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="What's your adress?" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Find a restaurant </button>
+              </form>
+        </div>
+        <div class="restaurant">
+          <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col"><a href="#PlanB" target="_self">
+              <div class="card">
+                <img src="plan b.png" class="card-img-top" alt="..." height="280px">
+                <div class="card-body">
+                  <h5 class="card-titlee">Plan B</h5>
+                </div>
+              </div>
+            </a>
+            </div>
+            <div class="col"><a href="#baguet" target="_self">
+              <div class="card">
+                <img src="baguette.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-titlee">Baguette et Baguette</h5>
+                </div>
+              </div>
+            </a>
+            </div>
+            <div class="col"><a href="#crep_fact" target="_self">
+              <div class="card">
+                <img src="crepes.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-titlee">Crepes Factory</h5>
+
+                </div>
+              </div>
+              </a>
+            </div>
+            <div class="col"><a href="#tacos" target="_self">
+              <div class="card">
+                <img src="https://linstant-m.tn/uploads/d6793b95f345de857952d2e17d79c986e9833cb9.jpg" class="card-img-top" alt="..." >
+                <div class="card-body">
+                  <h5 class="card-titlee">Chaneb Tacos</h5>
+                  
+                </div>
+              </div>
+            </a>
+            </div>
+          </div>
+        </div>
+       
+        <!-- plan b menu -->
+        <h2 class="rest" id="PlanB">Plan B Menu:</h2>
+          <h4>Salades</h4>
+        <div class="food">
+          
+      <div class="card mb-3" >
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://livrina.com/assets/img/items/1673718658LoazEe7AMq.jpg" class="img-fluid rounded-start" alt="..." height="100px" width="100px" style="margin-top: 20px;">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Salade maison</h5>
+              <p class="card-text">Laitue, tomate, oignons sautés, choux rouge, escalope panée</p>
+              <p class="price">12.900</p><p>DT</p>
+              <div>
+                <button class="btn-plus">+</button>
+                <span class="count">0</span>
+                <button class="btn-minus">-</button>
+              </div>
+              <div class="icons">
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+                <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" >
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://livrina.com/assets/img/items/1670886993wOWQA46K55.jpg" class="img-fluid rounded-start" alt="..." height="120px" width="120px" style="margin-top: 20px;">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Salade cesar</h5>
+              <p class="card-text">Laitue, tomate, oignons sautés, choux rouge, escalope grillé</p>
+              <p class="price">12.900</p><p>DT</p>
+              <div>
+                <button class="btn-plus">+</button>
+                <span class="count">0</span>
+                <button class="btn-minus">-</button>
+              </div>
+              <div class="icons">
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+                <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        </div>
+        <h4>Ciabatta Sandwiches</h4>
+        <div class="food">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="https://www.planbapp.net/upload/1619042663-A-Ciabatta-poulet-pan%C3%A9-farci-au-gruy%C3%A8re.png" class="img-fluid rounded-start" alt="..." height="120px" width="120px" style="margin-top: 20px;">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Ciabatta Poulet Farci Au Gruyère</h5>
+                <p class="card-text">Ciabatta Poulet Farci au Gruyère servi avec frites</p>
+                <p class="price">12.500</p><p>DT</p>
+                <div>
+                  <button class="btn-plus">+</button>
+                  <span class="count">0</span>
+                  <button class="btn-minus">-</button>
+                </div>
+                <div class="icons">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+                  <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="https://www.planbapp.net/upload/1619042489-A-Ciabatta-jambon-gruy%C3%A8re.png" class="img-fluid rounded-start" alt="..." height="120px" width="120px" style="margin-top: 20px;">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Ciabatta Jambon Gruyère</h5>
+                  <p class="card-text">Ciabatta Jambon Gruyère servi avec frites</p>
+                  <p class="price">9.900</p><p>DT</p>
+                  <div>
+                    <button class="btn-plus">+</button>
+                    <span class="count">0</span>
+                    <button class="btn-minus">-</button>
+                  </div>
+                  <div class="icons">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+                    <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+            </div>
+          
+        
+            <!-- baguette et baguette menu -->
+            
+              <h2 class="rest" id="baguet">Baguette et Baguette menu:</h2>
+              <h4>Burger</h4>
+              <div class="food">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="https://baguettedelivery.tn/wp-content/uploads/2020/05/double-chicken-1.png" class="img-fluid rounded-start" alt="..." height="100px" width="100px" style="margin-top: 20px;">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Double Chicken</h5>
+                  <p class="card-text">x 2 poulet pané, x 2 slices fromage, laitue, tomate, mayo</p>
+                  <p class="price">12.300</p><p>DT</p>
+                  <div>
+                    <button class="btn-plus">+</button>
+                    <span class="count">0</span>
+                    <button class="btn-minus">-</button>
+                  </div>
+                  <div class="icons">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+                    <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVFBgVFRUZGRUaGxofGxsaGxscHRsfGxobGhsbHR0hIS0kGx0qHxobJTclKi4xNDQ0GiM6PzoyPi0zNDEBCwsLEA8QHxISHzQrJCs8MzM5OTk8PDMzNTU5NTUzMzM8MzM1NTYzPDMzMzMzMTwzMzMzNjMzMzUzMzMzMzMzM//AABEIAMkA+wMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAAABQMEBgIBB//EADoQAAEDAgQDBgQFBAICAwAAAAEAAhEDIQQSMUEFUWEGInGBkaETMrHBQlLR4fAUI2LxgsIVsgcWc//EABoBAAIDAQEAAAAAAAAAAAAAAAAEAgMFAQb/xAAqEQACAgEEAQQCAgIDAAAAAAAAAQIDEQQSITFBBRMiUTJhFIFxwRUjQv/aAAwDAQACEQMRAD8A+zIQhAAhCEACEIQAIQhAHiEJXi+IEEhgkDU9eQ203UZSUeyUYuTwi/WrtaJcYVDFcROU5BPXl6pSaoaxz3QTJIEkknl1VV7y43vPsf8ASUnqHjgbr0yzyS4riNTUucOQbv6FQVsQ5xEOfJ3zED6qtUcQb6jZRVcRtdKStl5HY1RXSJHVqrJAe4bGHH/SkwHG6zHAZw5u4cSfQ6hL3PuM1QgbMkd7wBUD3hzbiD7qKtlF5TJOqMliSNzw7tDSquDBLXnQG4O9iPDeE6XyfDk525X5XSIMxHWdluuzvFX1M1OrHxG3BEd5ukxzB18Qn6NRu4l2Z2o06hzHofoQhNigIQhAAhCEACEIQAIQhAAhCEACEIQAIQhAAhCEACEIQB4qmLxzKdnG52FyucVjA2QLneDokjaPeBLg5xnMSdN7k2H1VFlu3hdl9dWeX0TY/Hvc0hk5jYN0A6kqqaThaznxpoLm5cLypmvmS0wLQefpsossBwsc0hxInpadEnKW55bHIx2rCRC2l3Xue5oaPlawTpaBfWdVSr1zMNsB0tBA03spcbVIa12QNBJAJIJMaQIsEuxOLytMNBMRJOhJ1t02Vc5JcDFcW+QfWAFoPO1/EndQnFkBwDQXECM2x2iNEvZiC/MdxPsFEMZbN7Kjfnku2+C6a0jvC49uaiZUbJHuqFGvm1MCSuqWIaKneBLdCAIi1iuJZBvAwexgu8kN1tE6KTs7VqurtFCSc1nuvDd55iNf1hVadCpVc1pbmc4w1osTynYWufBfR+z/AAcYdl71HfMRoP8AFvQc9/QBrT1uT/SE9TZGMf2xyvUIWqZQIQhAAhCEACEIQAIQhAAhCEACEIQAIQhAAhC8JQAJXiscQXBsAN31nw5AKDG4wucR+AdfmP6dFVf8suMiRbqlLbvERqqnzIr53Gpect7C8/5POw5DqpajtRludBqAObidXL17WnNLgBmbIbYWiASbm+qhfiA7MASR8s6N5naTadEt+mxpc9ImzgCXep+pAHsltbGuLSJhpdNxchpkTyUmJrE5Qxkm5cSdGiQLDTbW/RKMTWlrnCSAL7RMAA9ZIVU5PpF1cF2wr4qHZhc8yJgdBsleIxEjXmrDjsQ28D/btvKFXFJrqmRjWuJiDmeBMaXd9FQ8vgvykVaVb4ZkGCZEQTraDCrvJY4z9OfRXHd1hAhsOMiZuDrJ8FSqVS+Wg5nC0GcoHMkfRSjHwccvIMJc7IBmeZtppqTyCaUKAplrYzVHGGsaLSdIGrj1PsoMCxtJhyiah1cd/XQdF9C7McDZSaKzi2pWcLvacwAP4WHlzOp9AGqqdzwK3XKMck3ZzgnwG56kGs4d47NGuVvTmdz5J8herShBRWEZcpOTywQhCkRBCEIAEIQgAQhCABCEIAEIQgAQhCABCEIA5JSjiWLJOVptv1/ZdcUxVzTHKT9gllFrptr90nddztQ3TTxuZ5TfIkaczz3hS1Ccth3hppqdzOw5AKB1YgEt7xBOu5m5UbqrsrRHeJ7xvyJDRaG380puwNuOSVjmtblJIiZcYjX5QNyVBVxPdyktDY1InLIMxtPVU3OcBmcQHEyBFmxYW956qOi/K7M4yZBiIBi8eardnhFqr8nVTG6OHdcLi2hjcfZZ7EYrNIdu8umTe8i2hVriT3kucT8xk35pTlPLdKztk5YRfCCSyWWAuNr+C9NMDNfKQJnn08f0UdOt8Mh0gRf0UL2OqnM6WsOjdCfGNB/LK2MeMkJSwRCv8SzQcsEZuZn3t6KxQoAaBWsNgy6A0WTmjw0NElMQrb6F52JCV1MhdYTiL6ROR7mzrlMA+I0Km4jimNsLpM55cUSnGD7Oxrc10aej2vxLdXteP8mj/rCu0e3VX8VJp8CR+qx/wjIEzIBt15nn0V7DBrdabXeOafZy5/OUXhtnHo884RtcP2vza0CPB0/9Uzo8ca4TkcPRYiljQNKY8ifumOG4uz8TSPcJmvX0y4chaejmuUjV0+M0y4tIc0/5NMHwImVdZiWu0cPp9Vn8NXp1PkcHfZTkJ6MlJZTFJRaeGjQISOliXtsDI5G6YUcc11j3T109VIgXEIQgAQhCABCEIAEIQgDxR1aoaCToFIlnE6urSbWt7yfZQslti2ThHc8CvGViXlx/nJVHYvaSPCyjxtV0nNYn76eyW1H94CbmZHpBWJZZJyeDZrrW1DMVYFh4an05qN9butHeJv3SCAJGvUkowdU5SYuN+XPzVeviC7M8tbeGgloIbE2vvf3XY42g1yQVnnNdePfLC0C5IvyEhRgDKAZceY39Vw+oMzmzGX5p2nTx39FBJljZ3jsK9jA8uBkwBqTeD9/RLMfUDGlx09+gHMyvMdxNgGUEzJgC8zyH81VDD0tC65uQPyzva2br/DN1rOX0V72l+zmhRJOepr+FvLq7r0T3h+ENQ9FXwOCLzJs1aSg4NGVoV1deXl9C9lmOuwIp0m31SHi3FHOlrdemg/UqTi1a+um/LqqlDCzERc7pfVatweyJdp6E/lIotwjjd0mbj1j6q7QwM/pz6JrhOGlxvYc/DbxTM4BrAHAZnMzZb5ddeY0Sddc7uXwhudqjwhQ3hOWMzmgnmd/vZWzwq5j5YtMEz+inxOHD8j3sMtM2ILWzuSYkLutjGtOs+HX+e6YlVTFPcVKcpdCqtgXt2nXST9rW+6qup7FMMTjnOtoFRcVmWuO74dDMFLHyKz6j2DOwd+1g6PQp9wvjkkMqm+zvsUkc77qpUcDcHzCa0+pnW1gqtojYsM+hh66zLP8AAeJl7crjLhbx5FPQV6Wq1TipIwranCTiyxSxD2fKbcjp+yYYXiDXnKbP5c/ApOHrh43FiFapFTRqUKjw3GCo3/IWcPurykRBCEIAEIQgCHEVQxpcdh6rN8Qr5jM2mTPT9z7KfjeLOfKDaI/XzS+s8ZXOd3YDYHoB6rN1Vu5uK8GjpqtqUn5KdV0km6oYl/8AciLgCLRrfzV6tUAMAT1KgptlxcfM6+CzmaKPWyBE7qL4RHcvEzBnU7x4nVWsS5ggNMwB66/VVsTjXFwcfmJAtHjYdLlTjHHBByz0d4is2mwyO8RqsnjsWSbAFztQNT4nl+qu8cxZeGsgZpMDcAaExYW1VHCYVxMfM7c/zQK9NYyVM5wuF70nvO+nQJ5hsHAzP05LjhtABxnXmr1Sln0uPb912C38lU5beCCpxBosPZd4biBlVMTwupbYdB5DrurmG4W2nlLiZOgglx5wOW8q3bJMhmLRWe3O4i22om2psmFClEAAm4Fthz8AmlPgoeMw7ruRj0P7Lx3D6lK5E66dVj6vSXKTk1ld8DlWog1tT5JmFrAQLix05+2xU4ym4+bYm8Jb/VLh2KNxpyjVQjrUuCTpbJOJYp0Oa0CcpF9J5mPVKndFKXKEpSy+VnLGIQUeiF773BE6G0GNd7KN1T6fVc4inm6Qdd/I7fuoYIEOIJvoI8N+Ss2p4aJL6ZzVq+HjefrCqPerTqTjo1XsFwYnvPsOSdo087HhIrsuhBZbKvBA4VJ2MfVa840MDczXEEwS0ZsptEgXA6pbgsEA60rQUKa39PS644MTU3KcskrYXlUiLoDfzAGDI/nMc1FVYHAtcAWnYiQmBU84c4srAz3XWP2WoWSxJgW20WmwlTNTa7m0H2QgZOhCF04CEIQBi8dnLjbulziPAnfkqlUl2ZpMjuyfAqbiL3U65FyA4kDo4yB7hQCs0MiO851+QH+1hW/m+Tah+K4OcoJldvrETlAA6DlvouIi86z5Lgkz4qlPBcRVagjMdNf56rH4ziVR1Uin8xtA5bknYLScXqAUxTaJc75W6eJnYJHRp5DkZ36ryAYF3E6NaOSvrwlkrk30jkMbTaTOZx+Zx36DkE77PUKrqL3Cm4tcW5e6bwJzAxcGfZP+D9hWwH4o53WORphg6OOrzz0G19Tr6tCTI0iI005fROQ0rlzJ4E7NTFLbHn9nzRvCazzBBaOQFynfD+DuaADMeKfigQXkGRm+WACywkdb3811RcM10xVRGPQtO6UuCszBAahWKdK1mj6qzWBMZS0XEyCbbgXEHrfwQa2yYwU5PGYfnZdtwYtckDQSY87381AXL01DlImJHojBzJHiuD037ZT089f5sqFTs+3Z2nNOadUAAdPouXvlLT0dM3lxRfDU2R4TM6eAnmhnAmkwXXgHyP8ApPYiIPjMn72Xpcq4+n0L/wAosestfkSf+AZuUf8AhqQPyymdWrChfWCtjp6o9RRW9RY+2ynTwbGmwF1M5rRry8l2wh2hC4xNgrorBXKbl2ROcArDK4hI8RicskmANVTw9LLUdVL3Oc4RBPdDdgANt11yOKJp34gKlWxUKiaxOilp4dxuRKhubJYSCriC4LR9lcV8TDNMtMOe3umYyPc2/W0+YWdxRDKZcbch12Cof/HNanhviU6lVwdUe2AWwwuiJm8OJMXgWGpUPcUZJN9k/bk4uSXR9MQhCvKAQhCAM/2jwGZvxALt1jWOfl9PBZh7S1pMSG6n6L6I5s2KyvFOHFhdlktd8u4B/K77FZ+roy9yNDSX8bGJcOS8SLzcRyXmJqfDbNi46BWi8UhJOWLABIvg4jGvLaLbTDnmzWeJ59BJSEYtvCXI65Y5fQsqYh7n5KbS+q8wMokno0bN3npJX0Psh2WGFb8WpDsQ4XOoYD+Bn3dv4K72c7N0cI3ujNVI79Rw7zug/K2dh0mTdPFqafT7OZdmbfqd/wAY9Hq4qVAASSABqSYA8Sl/G+KDD085EkuAAmNbk+QBWA4rxqtVEPeIBJDQIHnzKlZqYxe3ticnhZNJx7tTRpT8KH1bTqGgDcmO9yEfsZ+DcYo4pstIZU3YTfxH5h1C+VvY5zswv1/ZT1GFrmTOa0ch4Rv9EnDVTUnJ9fRFzPsLqOl59VXeMoII8595Xz7B9pcRSloqZwDH9yX3mDeZ1trsn3Be1zar3MxGSmY7rpLQehJMD1T0dRFtJ8Nk3w0hqx5mJKlxDqmdrRTMHUjQea6ZWpl8AtzATaD5T1XGPwor0yzM4NJ+ZriCCDz8dlankk4/Yu4dxptUGD32GHs1yu0IndM6WMLgTlcADFwrFJgYLsG1xv4lQsw5zOdch0byBEnujQaqWDjwTMcSJAJU2Hc0lzT8w2PsR0PNQ03uDyCO5Aiw1vN819rQPE7WHPYJdYGInpy8EZOYKeKYyYzAOGoB0B6eXsltXCxJBle12CSWgTETvA0E6kX91Xa8g2MxY/X9FBtMsUWSUHwrOcOCpspzz/l1Iym4LsXwckjz+izFV8TgXDVpaYuDEz0jUJ1hjkIJ/lln+1HHqZDqUkmBOVs5R47O338tVGyajHJKuLlLBFwSm/vfEGkls6kSYkbaDn9lc4hxwUaYJpgVCB3Q6b85jSVlcR2mhjG0gGACC4/MefOB5yqlQlwzzMzBPObkkm8/dVwk8FzrWeSSvxCo94dVddxygCzR3tr7/ZWKVLI5x/C4XHPqlVNjHVHS7K0N7u994PMmb9VbxeMIe0tzRod9OnVKalLKaGqW8NH2ThtcvpMeRBc1pPmAVaWb7EYt1XDAmO6co8GgG/WSfZaRaFcsxTMyccSaPUIQpkTwKOvSDmkHQqRC41kFwY+v2VfWfNR5awSIbBLut7N9/BaXA4JlFjadNoa1ogAfUncncm5VtCrhTGHSLJ2ynw2CX8ZxXw6RcDBNgeRO/pKYJbxqix1Ml4kN7wExJggAxeJOyjqXJVSceyC7PnGNc5zpJLr6kpc/UzotdU4hRNMt/pmBxBAM6HSZIk89VkqtM5y3ebeawtLt3NbskLk3hnVOm0Q43I0G3+1E8wS9xkt+Vuw69f3QWOkiNPZUsW6REwmpySWES02lsumopf34PWMLjAgufeZ0I/n1THheHdJNRveaYb+K1ogb7+ELKsxT6DpYZH5SJH7K47tOSA4iHjYgRaOQ3uroYaTRr2aJwa8msxtcU5e1glwMuMXM8jqL/wA1SRnGcS0Q2s8X/MfYclYdxdlSifhmc/zGNImR7+6Th8XG1v1+qpvm92E+jNueJbRyztZi22+LmA/M1p94n3Tfh3a+u5rgWMOUEudJbzg5d9reKxTnERayY0AGU3BzofUEAcrZhJ0Bgix5+MTpssb7eDlcd0i3ie1Neq4ZasZjGVoADfWbdSSrTOIYgtj4kkanK0G/ksk17mOFhJu0GBpvOif4N8siCXOIJJ1dNrWs0AEzPLqrZQ+WcD0EkizhOMYlhzGqXg/K17RcD5oIj3TrB8fD3CacNO4OhiSDI5XWaqV5hoLcwmBof3C8a/4ZfWaIGTLBnXMLyLZo3KlHOeOAlBY6NzTx1EhzS6ecnY7D01VipxajTAl4zx8rbu/bzXyivx7M5x/DG5u6LAA76yrmC4vTcHBkAtuGkEuuIkQOe+0KyM5rsrdUX0zTcV7T5n90OAh15JmN40B6ykOKqhjzBJzAG5k3531VR1VhBc18WO9hpaI1/RLcZxQgkETYROsTPlujDbyyaSisIaZGl1wYsIB1JsPefRRcRrgU3EmGjLkbNpF5t/LJDiONudZovOt4G09T7Lhjn1IzGwv05SVJvCJQg5vgecMqPrPAYAA1pJ17xOsnqYjwV2g/+41t7mNNOc8ileDxHw3syaDU/mP2HIfqn2GfTOLDh8ro8nEXPql7UmlJ/eC6x+3j6PqPYym1uHOUQczp9BHtC0Sz/ZAf2n//AKO/9Wp+nq/xRk2fkz1CEKwgCEIQAIQhAHiS9o8WadMQwPa4w4SQSNbEaHr0TpUeKYP4rMoiZkTpoR90vqYydTUOzqMVVe0g9x0bTAN+cb+CScSwoHe0DoBHrcDVOeJdx5YdRY+O6Vvphzri03XkozlCbfXgm1lYIHUIEzJd+EC8nTxKqP4bUc2XMcN9Nuo1CavhtQOcJy6DrsuuIVy+k4MIk2ueoken3V8dTLCTNLT+oSilDC/yYvFUwDa6X1mzqEyr0nMdDxB67+ehTbBcDbVph+bKSDE6fstKrL6NSU4zWc8Gb4KGte5ptmAAPhJ/ngmPEKobDXQBc8y7c6az9wpsf2cqUxmLTl/OLt9Rp5pJj8BUqZTnu0QJkH138VdtUpfLgy7/AE9znvi8ryXMJjs8BwAj5ZAFpnXc+MpoHsewjLBMXBzTHMG3mI18FmWU3gQ9t+YTDh+OyfNdvMbeI2VrST+I5VRDGGsHVXhj9qT3ACw5egNp6rwcQrMa1vwwcoiczg4e1jK1GFqtc0OYQes/yPBc1Hk63/2Psht45LlpoPozlDjdNtnUXgn5nWc4nYi4iLe6lqcZpvptp5XxJnM0CRqBIn1PPxVquwToPQKBtFk/KD5KLt/RL/jl9mc4nT74+Fmyax+Uz+3uq1PBPmRY8zM+ULYvwzPyhVTWaNGD0Ulc8YRW9BBctmcZgH/mcfCfqrDOEHUn1Ke5i4EgGBqQLDlPJQ1HgLqsb8kf49URY3ANGt/ZdOby0XmLxAEkmPf2TmvwhrngteGs/I497mLnaNtVGdqj+RTO+EHhFPhWD+I4y4NaBJJm99LJxjcGKWQh0k3iIjSNyp8RigHAXc0AAmbyBf3lWnCnUa3Uxps4dFm26iTabWEZt9kpvL6NpwbjDafD3VWQXB7hB0zSIB/4Q5azCVs9Nr9MzWn1AP3XymgzKzKBDZnLM3gCT1gD0C+idlsT8TDM5tlp8tPYhP6LWO2xw8JCrHSF4vVqkQQhCABCEIAF4vUIAT8b4UKre7AcDOgl1oglZF2Hyg2X0VZjjmBa2MggGbDWwk28vdYXqujUl7sf7LIPwZetQzknYctUVR3MuUAawF43OGk3mVDUqHdYHIPgXYikH9wiZ0HXp1UuC4l8A/AqU+6AIcL2O/8ArcLrPDgRfXnvIXb2B7e8JnSdQZgieR+yfp1Mqnx0WwulHjwO6lXDuwlQ/EaCQYcCdyYERI0A9VgMFWBflcAQd5gjwK0I4e0AgMAB53nzKXV+D0xcuyTpLgB5SnHro2NZWMGhpdbGCalnkrvw9Mk2PqqtXhzTv7R9FPi8A6nfPmHnP3VLPJiST5qcbE1mJpw1VMl2gbQdTMsdHhofJNianww4EF5bmyxMgTIBnWL+oSarSqTAa6TpY3ThoLBTEy5gE+MlxHUXhcsuaSwxXU6tRS2d5Eh4iQZdceA/VXeEY5lSrlyuMNc4yBFhA35kKlxjhj2vORuZhMti5AOxGq84CH06hL6boeA3N+WSDpysPTdWuUZVuSfOCu3XNwe1mk4jNUMAIDmtgzN27RzSathCOXunlTDOcRlIDtQSYVesx4Ic8BpkAnaUhXdJLCZnfy7UlFPggon4NAOeYGbvE6Q4AXHKwH/JU8Thg24+U3Hh94+yONU6tRvw2MzNcZc4nKyxBAnU3ANuQ6phw3BOp02NqFpLRAiSANgJ8Y8kyoSUd/lvr9HF7kstvsp4bBNs7K1xBmTBI5W0GnKVbLHNmRBPNduwhkwJGql+HkY5muYgg8tNFRKTyRjFqSFzjJVulSI1BB22VMt7ya1JLA0TspRlFNKXTJTtjnB1Txgs19jz2P6JlgOKvw7pY/Lm1BEtPKZt5pNTYBAjvHXqeQVjI5pyvaWyPxCLeBVU4qM3KvKX2KSaT4PoXZaq+q59Z7i7Ro5fmMAWGrVpVnOw9ZrsK1o+ZhId4nvA+hHotGvQ6Rf9S5z5OHqEITIAhCEACEIQB4uH02u1AK7Xq41nsBDxLgYeDlgcosR9iFisXhnMcWvEEL6klPFuDtrlpLogRYa358lk6305TW6tc/RLOez59Swxf8ozG9hcwPDxXOMwn9u8zIIE6Qd+i1X9IMObsgnR2oI5Dl4G6X4jDMLXGAXHRx23IHiseemnDl9ov9l7coyoZUy2c7eADBHOOir1uGF9zUGc/mn0zHVN8dSLQI/RVf6cDXVRjY1z0VRjk5xeAApsBd3gIA1JE+2917g8G1osACrGCoB7vp+6s1KeUkKErJJYOt7eCF2HGhF97n7FVThGG7CZEZmkiRvH19EydQL2wNdPX/SpjBVG/LTc5pNzuDpMK2pbkmhmMN+Gujl+HDhmIultRtz0T91FwYRBtG0ESeqVVcPBPL6rn4yaZVZFxlgqCs+c2a5P06aJtQdmEjUeIv0VRrG8lewxABuozaeCpkOIe50E+fihlEny9kxoVoFwTpFp6KRz6YblkZz83nfRaFcm4ptmhBtxXBRfh4Eza1lWxgAba36KxUcXODGtLnOMBrbknoFqeD9kQHCpiIcdQwTDTtmMw+OURJ3TNdDsIWTUezFu4W9jWuqMLMwJZNiRzjUDxhccN4fVxNX4VIafO8/Kwcz7wN1oe1ZqVMUaUjMS1rNgA6CCfN1z08lteC8LZhqQpsHVzt3OOrj/ACwgKFWlVlrz0mISeXkj4LwOlhmAMbL47zyO84+Ow6Cy94/wz+oouYA3P+Fzh8pkTBgkSBFk1Qth1xcduOCJ8s+BiuHVQcwAcNpcx4Gx0Np6ETyW5wPFX1KbX/BeMwmxt4iRodfNN30wYkAwZEiYPMciu0vXppQb2zeAPUIQnABCEIAEIQgAQhCABCEIAiqUw4EEAg6giQfJLK3AaRsMwEzANp+sdJTdCrnVGf5IlGcl0zIY/sq95OV7Y13BnlF7eaof/W62e7O6BMgh1+QuFvkJKXplMnnkkptGGHBajRem5oixbld6gGfoqDsE4ySQANyCPYr6OVGVRZ6XVLrgnvT7X+jAcLpRJfYnQai2kpocQ224/ZN+J7rK4nVU+0qliI3WviWar2usfl8etkmxXDiQcjpIPQWPU7prhNW+IWhwKj7EbHlhZFY6MXhOGtg5iSRFhefRWW8KJPdpVT/xdHqRHuvobdF0mYen145FfcS6RiaXAcQ/8LWD/Jw08Gz9ldwvY1gg1ajnnk3ujz1PmCFrAvCnY6SuHjJyWon4KWB4ZRoj+3Ta3mQLnxcbn1V5CEykl0UZz2ZbtL2Rbi35/iFkgBwy5pjlcQn+AwgpU20w5zw0Rme4ucepJ1VteKEaoxbkvIHqEIVgAhCEAf/Z" class="img-fluid rounded-start" alt="..." height="120px" width="120px" style="margin-top: 20px;">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Sunrise Burger</h5>
+                  <p class="card-text">Steak haché, fromage, œuf grillé, oignons caramélisés, laitue, tomate</p>
+                  <p class="price">8.300</p><p>DT</p>
+                  <div>
+                    <button class="btn-plus">+</button>
+                    <span class="count">0</span>
+                    <button class="btn-minus">-</button>
+                  </div>
+                  <div class="icons">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+                    <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+            </div>
+            <h4>Sandwiches</h4>
+            <div class="food">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="https://baguettedelivery.tn/wp-content/uploads/2020/05/fermier.png" class="img-fluid rounded-start" alt="..." height="120px" width="120px" style="margin-top: 20px;">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Sandwich Fermier</h5>
+                    <p class="card-text">Escalope de dinde grillée, laitue, tomate, sauce fermier</p>
+                    <p class="price">6.200</p><p>DT</p>
+                    <div>
+                      <button class="btn-plus">+</button>
+                      <span class="count">0</span>
+                      <button class="btn-minus">-</button>
+                    </div>
+                    <div class="icons">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+                      <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                    </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+              
+              <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="https://baguettedelivery.tn/wp-content/uploads/2020/05/latino.png" class="img-fluid rounded-start" alt="..." height="120px" width="120px" style="margin-top: 20px;">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Sandwich Latino</h5>
+                      <p class="card-text">Poulet grillé, champignons, fromage, laitue, tomate, mayo</p>
+                      <p class="price">6.900</p><p>DT</p>
+                      <div>
+                        <button class="btn-plus">+</button>
+                        <span class="count">0</span>
+                        <button class="btn-minus">-</button>
+                      </div>
+                      <div class="icons">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+                        <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                      </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                </div>
+              
+<!-- crepes factory -->
+
+<h2 class="rest" id="crep_fact">Crepes Factory menu:</h2>
+<h4>Crepes Sucrees</h4>
+<div class="food">
+<div class="card mb-3" style="max-width: 540px;">
+<div class="row g-0">
+<div class="col-md-4">
+  <img src="https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto:low/Products/esie95oxlvecv6rgyax1" class="img-fluid rounded-start" alt="..." height="100px" width="100px" style="margin-top: 20px;">
+</div>
+<div class="col-md-8">
+  <div class="card-body">
+    <h5 class="card-title">Crêpe Nutella Suprême</h5>
+    <p class="card-text">Nutella, noisette, ferrero rocher, beurre de noisette.</p>
+    <p class="price">16.000</p><p>DT</p>
+    <div>
+      <button class="btn-plus">+</button>
+      <span class="count">0</span>
+      <button class="btn-minus">-</button>
+    </div>
+    <div class="icons">
+    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+      <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+    </svg>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<div class="card mb-3" style="max-width: 540px;">
+<div class="row g-0">
+<div class="col-md-4">
+  <img src="https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto:low/Products/pqw2ttjgm5627o1yhfrh" class="img-fluid rounded-start" alt="..." height="120px" width="120px" style="margin-top: 20px;">
+</div>
+<div class="col-md-8">
+  <div class="card-body">
+    <h5 class="card-title">Crêpe Whity</h5>
+    <p class="card-text">Mascarpone, fromage blanc doux, caramel beurre salé amande, choco blanc</p>
+    <p class="price">15.500</p><p>DT</p>
+    <div>
+      <button class="btn-plus">+</button>
+      <span class="count">0</span>
+      <button class="btn-minus">-</button>
+    </div>
+    <div class="icons">
+    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+      <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+    </svg>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<h4>Crepes Salees</h4>
+<div class="food">
+<div class="card mb-3" style="max-width: 540px;">
+<div class="row g-0">
+  <div class="col-md-4">
+    <img src="https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto:low/Products/ntih3czsohg9zjzq9um5" class="img-fluid rounded-start" alt="..." height="120px" width="120px" style="margin-top: 20px;">
+  </div>
+  <div class="col-md-8">
+    <div class="card-body">
+      <h5 class="card-title">Crêpe Pepperoni</h5>
+      <p class="card-text">Pepperoni, mozzarella, sauce marinara, basilic sec, sauce blanche.</p>
+      <p class="price">13.000</p><p>DT</p>
+      <div>
+        <button class="btn-plus">+</button>
+        <span class="count">0</span>
+        <button class="btn-minus">-</button>
+      </div>
+      <div class="icons">
+      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+        <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+      </svg>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto:low/Products/jy2wycbxxa7t6jew0evt" class="img-fluid rounded-start" alt="..." height="120px" width="120px" style="margin-top: 20px;">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Crêpe Sicile</h5>
+        <p class="card-text">Jambon de bœuf fumé, mozzarella, sauce pesto, légumes grillés, sauce blanche.</p>
+        <p class="price">15.500</p><p>DT</p>
+        <div>
+          <button class="btn-plus">+</button>
+          <span class="count">0</span>
+          <button class="btn-minus">-</button>
+        </div>
+        <div class="icons">
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+          <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+          <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+        </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+  <!-- chaneb tacos -->
+  
+    <h2 class="rest" id="tacos">Chaneb Tacos menu:</h2>
+    <h4>Tacos</h4>
+    <div class="food">
+  <div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="https://livrina.com/assets/img/items/1675374206j0x1NadNk7.jpg" class="img-fluid rounded-start" alt="..." height="100px" width="100px" style="margin-top: 20px;">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Tacos Simple au chawarma</h5>
+        <p class="card-text">Servi avec des frites.</p>
+        <p class="price">11.000</p><p>DT</p>
+        <div>
+          <button class="btn-plus">+</button>
+          <span class="count">0</span>
+          <button class="btn-minus">-</button>
+        </div>
+        <div class="icons">
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+          <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+          <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+        </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="https://livrina.com/assets/img/items/1675374743jyzqYdqhTZ.jpg" class="img-fluid rounded-start" alt="..." height="120px" width="120px" style="margin-top: 20px;">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Tacos Signature Royale au cheese</h5>
+        <p class="card-text">Poulet grillé, Gruyère, Raclette, Cheddar, Sauces au choix, oignons caramélisés (servi avec des frites)</p>
+        <p class="price">13.500</p><p>DT</p>
+        <div>
+          <button class="btn-plus">+</button>
+          <span class="count">0</span>
+          <button class="btn-minus">-</button>
+        </div>
+        <div class="icons">
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+          <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+          <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+        </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <h4>Snacks</h4>
+  <div class="food">
+  <div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="https://livrina.com/assets/img/items/1675375660tQbOzQamWS.jpg" class="img-fluid rounded-start" alt="..." height="120px" width="120px" style="margin-top: 20px;">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Poppers 6 Pièces</h5>
+          <p class="card-text">6 Pièces, servi avec deux sauces au choix.</p>
+          <p class="price">6.500</p><p>DT</p>
+          <div>
+            <button class="btn-plus">+</button>
+            <span class="count">0</span>
+            <button class="btn-minus">-</button>
+          </div>
+          <div class="icons">
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+            <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+          </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+    <div class="card mb-3" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="https://livrina.com/assets/img/items/16753754443XGc6r3gTT.jpg" class="img-fluid rounded-start" alt="..." height="120px" width="120px" style="margin-top: 20px;">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Fingers 6 Pièces</h5>
+            <p class="card-text">6 Pièces, servi avec deux sauces au choix</p>
+            <p class="price">7.000</p><p>DT</p>
+            <div>
+              <button class="btn-plus">+</button>
+              <span class="count">0</span>
+              <button class="btn-minus">-</button>
+            </div>
+            <div class="icons">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+              <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+            </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      </div>
+
+      <div id="receipt">
+        <h3>Invoice</h3>
+        <div id="table">
+          <table>
+            <thead id="tablehead">
+              <tr>
+                <th>Menu Item</th>
+                <th>Price</th>
+              </tr>
+            </thead>
+            <tbody id="newtr">
+
+            </tbody>
+          </table>
+
+        </div>
+        <div class="total-price-container">
+          <span>Total Price :</span>
+          <span class="total-price"> 0 </span>
+          <span>DT</span>
+        </div>
+        <button type="submit" class="pay">Pay</button>
+      </div>
+
+<footer id="dk-footer" class="dk-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-4">
+                    <div class="dk-footer-box-info">
+                        <a href="index.html" class="footer-logo">
+                            <img src="logo.png" alt="footer_logo" class="img-fluid" width="150px" height="150px">
+                        </a>
+                        <p class="footer-info-text">
+                          we aim to please.<br>
+                          Order your favorite food from your favorite restaurant.
+
+                        </p>
+                        <div class="footer-social-link">
+                            <h3>Follow us</h3>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- End Social link -->
+                    </div>
+                    <!-- End Footer info -->
+                    <div class="footer-awarad">
+                        <img src="images/icon/best.png" alt="">
+                        
+                    </div>
+                </div>
+                <!-- End Col -->
+                <div class="col-md-12 col-lg-8">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="contact-us">
+                                
+                                <!-- End contact Icon -->
+                                
+                                <!-- End Contact Info -->
+                            </div>
+                            <!-- End Contact Us -->
+                        </div>
+                        <!-- End Col -->
+                        <div class="col-md-6">
+                            <div class="contact-us contact-us-last">
+                                <div class="contact-icon">
+                                    <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                                </div>
+                                <!-- End contact Icon -->
+                                <div class="contact-info">
+                                    <h3>71 195 353</h3>
+                                    <p>Give us a call</p>
+                                </div>
+                                <!-- End Contact Info -->
+                            </div>
+                            <!-- End Contact Us -->
+                        </div>
+                        <!-- End Col -->
+                    </div>
+                    <!-- End Contact Row -->
+                    <div class="row">
+                        <div class="col-md-12 col-lg-6">
+                            <div class="footer-widget footer-left-widget">
+                                <div class="section-heading">
+                                    <h3>Useful Links</h3>
+                                    <span class="animate-border border-black"></span>
+                                </div>
+                                <ul>
+                                    <li>
+                                        <a href="#">About us</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Services</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Projects</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Our Team</a>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <a href="#">Contact us</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Blog</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Testimonials</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Faq</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- End Footer Widget -->
+                        </div>
+                        <!-- End col -->
+                        <div class="col-md-12 col-lg-6">
+                            <div class="footer-widget">
+                                <div class="section-heading">
+                                    <h3>Subscribe</h3>
+                                    <span class="animate-border border-black"></span>
+                                </div>
+                                <p><!-- Don’t miss to subscribe to our new feeds, kindly fill the form below. -->
+                                  Subscribe to our social media accounts and newsletter for staying up to date.
+                                  <form action="#">
+                                    <div class="form-row">
+                                        <div class="col dk-footer-form">
+                                            <input type="email" class="form-control" placeholder="Email Address">
+                                            <button type="submit">
+                                                <i class="fa fa-send"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                                <!-- End form -->
+                            </div>
+                            <!-- End footer widget -->
+                        </div>
+                        <!-- End Col -->
+                    </div>
+                    <!-- End Row -->
+                </div>
+                <!-- End Col -->
+            </div>
+            <!-- End Widget Row -->
+        </div>
+        <!-- End Contact Container -->
+
+
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <span>Copyright © 2023, All Right Reserved GOFASTICO</span>
+                    </div>
+                    <!-- End Col -->
+                    <div class="col-md-6">
+                        <div class="copyright-menu">
+                            <ul>
+                                <li>
+                                    <a href="#">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#">Terms</a>
+                                </li>
+                                <li>
+                                    <a href="#">Privacy Policy</a>
+                                </li>
+                                <li>
+                                    <a href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End col -->
+                </div>
+                <!-- End Row -->
+            </div>
+            <!-- End Copyright Container -->
+        </div>
+        <!-- End Copyright -->
+        <!-- Back to top -->
+        <div id="back-to-top" class="back-to-top">
+            <button class="btn btn-dark" title="Back to Top" style="display: block;">
+                <i class="fa fa-angle-up"></i>
+            </button>
+        </div>
+        <!-- End Back to top -->
+</footer>
+
+<script src="index.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+  
+
+</html>
+
+ 
